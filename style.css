@@ -1,3 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #484848;
+    font-family: "Inter", sans-serif;
+    background-color: #fff;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/*  Reusable Container */
+.container {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+
+}
+
+/* Reusable Button */
+
+.btn {
+    display: inline-block;
+    background-color: #1D4ED8;
+    padding: 18px 42px;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 700;
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+.btn:hover {
+    background-color: #1544c6;
+}
+
+/* Header style */
+
+header {
+    background-color: #fff;
+    padding: 23.5px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 134px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.nav-menu a {
+    color: #575757;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    transition: 0.3 ease;
+}
+
+.nav-menu a:hover {
+    color: #1544c6;
+}
+
+/* Hero Section Style */
+
+.hero {
+    background: url("./assets/banner.jpg") center center/cover no-repeat;
+    height: 90vh;
+}
+
+.hero-overlay {
+    background: linear-gradient(212.61deg, rgba(0, 0, 0, 0) 42.9%, rgba(0, 0, 0, 0.88) 82.18%),
+        linear-gradient(90deg, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0) 70%);
+
+    height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    height: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content .hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.hero-text h1 {
+    font-size: 80px;
+    line-height: 1em;
+    font-weight: 700;
+    letter-spacing: -3.2px;
+}
+
+.hero-text p {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    max-width: 800px;
+    align-items: center;
+    color: #FFFFFFE5;
+
+}
+
+.hero-content .btn {
+    align-self: center;
+
 }
