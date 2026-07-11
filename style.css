@@ -209,3 +209,182 @@ header {
     font-weight: 400;
     color: #575757;
 }
+
+/* Pricing Section Style */
+
+.pricing {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    background-color: #ffffff;
+}
+
+.section-title p {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #575757;
+}
+
+.pricing-wrapper {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.pricing-card {
+    padding: 32px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-name {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #888888;
+    letter-spacing: 0.32px;
+}
+
+.pricing-card h3 {
+    margin-top: 8px;
+    font-size: 44px;
+    line-height: 44px;
+    font-weight: 700;
+    color: #0D1B2A;
+}
+
+.plan-duration {
+    margin-top: 6px;
+    color: #888888;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.pricing-card hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #e5e7eb;
+}
+
+.pricing-card ul {
+    flex-grow: 1;
+}
+
+.pricing-card ul li {
+    margin-bottom: 10px;
+    color: #333333;
+    font-size: 14px;
+}
+
+.pricing-card ul li::before {
+    content: "•";
+    color: #2563eb;
+    margin-right: 10px;
+}
+
+.pricing-btn {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 11px;
+    text-align: center;
+    border: 1px solid #2563eb;
+    border-radius: 8px;
+    color: #2563eb;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.pricing-btn:hover {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+.active-plan {
+    background-color: #0D1B2A;
+    color: #ffffff;
+}
+
+.active-plan h3,
+.active-plan .plan-duration,
+.active-plan ul li {
+    color: #ffffff;
+}
+
+.active-plan hr {
+    border-color: #FFFFFF1A;
+}
+
+
+.active-plan .plan-name {
+    color: #60a5fa;
+}
+
+.active-btn {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+}
+
+
+.active-btn:hover {
+    background-color: #1d4ed8;
+}
+
+
+/* ===========================
+   Hackathon Section
+=========================== */
+
+.hackathon {
+    padding: 100px 0;
+    background: #F8FAFC;
+}
+
+.prize-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.prize-card {
+    background: #ffffff;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 32px;
+    text-align: center;
+}
+
+.prize-rank {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #2563EB;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.prize-card h3 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #0D1B2A;
+    margin-bottom: 16px;
+}
+
+.prize-card p {
+    color: #575757;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.hackathon-btn {
+    text-align: center;
+    margin-top: 48px;
+}
